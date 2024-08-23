@@ -1,0 +1,100 @@
+.techstack {
+    margin-left: 130px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.techstack hr {
+    color: #ffa116;
+    width: 488px;
+    margin: 18px auto;
+}
+
+.techstack h2 {
+    font-weight: bold;
+    color: #ffa116;
+}
+
+.techstack .card {
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0);
+}
+
+.techstack .card:hover {
+    background-color: #282828;
+    color: #fff;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.techstack .tech-icon {
+    font-size: 2rem;
+    color: #ffa116;
+    margin-right: 10px;
+}
+
+.techstack p {
+    font-size: 18px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .techstack {
+        margin-left: 50px;
+        padding: 15px;
+    }
+    .techstack hr {
+        width: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    .techstack {
+        margin-left: 30px;
+        padding: 10px;
+    }
+    .techstack h2 {
+        font-size: 24px;
+    }
+    .techstack p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .techstack {
+        margin-left: 20px;
+        padding: 10px;
+    }
+    .techstack h2 {
+        font-size: 22px;
+    }
+    .techstack p {
+        font-size: 15px;
+    }
+    .techstack .card {
+        margin: 0 auto 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .techstack {
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .techstack h2 {
+        font-size: 20px;
+    }
+    .techstack p {
+        font-size: 14px;
+    }
+    .techstack .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .techstack .tech-icon {
+        font-size: 1.5rem;
+    }
+}

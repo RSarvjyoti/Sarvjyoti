@@ -1,0 +1,127 @@
+.home-container {
+    height: 300px;
+    color: #fff;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.home-content h2 {
+    font-family: "Ubuntu Mono", sans-serif;
+    color: #ffa116;
+    padding: 5px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-family: "Ubuntu Mono", sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.home-buttons .btn-hire {
+    border: 1px solid #ffa116;
+    color: #ffa116;
+    width: 160px;
+    text-align: center;
+}
+
+.home-buttons .btn-hire:hover {
+    background-color: #2196f3;
+    color: #fff;
+    width: 200px;
+    transition: 1s;
+    border: none;
+}
+
+.home-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-buttons .btn-cv {
+    background-color: #ffa116;
+    color: #fff;
+    width: 160px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.home-buttons .btn-cv:hover {
+    border: 1px solid #ffa116;
+    color: #ffa116;
+    background-color: #1c1c1c;
+    opacity: 0.5;
+}
+
+.theme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #282828;
+    margin-top: 20px;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .home-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        height: auto;
+        padding-top: 50px;
+    }
+    .home-container h2 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .home-container h1 {
+        font-size: 24px;
+    }
+    .theme-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-container {
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .home-container h2 {
+        font-size: 18px;
+    }
+    .home-container h1 {
+        font-size: 20px;
+    }
+    .home-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-buttons .btn-hire, .home-buttons .btn-cv {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .home-buttons .btn-hire:hover, .home-buttons .btn-cv:hover {
+        width: 100%;
+    }
+}

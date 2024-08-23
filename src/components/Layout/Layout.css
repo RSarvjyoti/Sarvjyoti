@@ -1,0 +1,46 @@
+.sidebar-section{
+    display: flex;
+    background-color: #1a1a1a;
+}
+.sidebar{
+    height: 100vh;
+    background-color: #282828;
+    width: 90px;
+    position: fixed;
+}
+
+.sidebar-toggle{
+    width: 200px;
+    height: 100vh;
+    background-color: #282828;
+}
+
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.sidebar-toggle-icons p svg{
+    color: #fff;
+    margin-top: 30px;
+}
+.sidebar-toggle-icons p svg:hover{
+    color: #ffa116;
+}
+
+.sidebar-toggle-icons p svg:hover{
+    background-color: #282828 ;
+}
+
+/* Mobile Veiw */
+@media (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+}
+
+/* #ffa116 
+#282828 : sidebar
+#1a1a1a : ground */

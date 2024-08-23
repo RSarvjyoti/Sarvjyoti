@@ -1,0 +1,178 @@
+.contact {
+  margin-left: 130px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+
+.card0 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 0px;
+}
+
+.card2 {
+  margin: 0px 40px;
+}
+
+.card1 .image {
+  padding: 30px;
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.border-line {
+  border-right: 1px solid #e0e0e0;
+}
+
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+  justify-content: center;
+}
+
+::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+  font-weight: 300;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  margin-top: 5px;
+  width: 100%;
+  color: #ffa116;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+  outline: 1px solid #ffa116 !important;
+  outline-width: 0px;
+}
+
+button:focus {
+  box-shadow: none;
+  outline-width: 0px;
+}
+
+.button {
+  background-color: #1e1e2c;
+  color: white;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .contact {
+      margin-left: 20px;
+      padding-top: 30px;
+  }
+  
+  .card2 {
+      margin: 0px 20px;
+  }
+  
+  .card1 .image {
+      padding: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact {
+      margin-left: 0;
+      margin-bottom: 30px;
+      padding-top: 20px;
+  }
+
+  .card {
+      margin: 0;
+  }
+
+  .border-line {
+      border-right: none;
+  }
+
+  .card1, .card2 {
+      margin: 0;
+      padding: 0;
+  }
+
+  .or {
+      width: 100%;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+      padding-top: 10px;
+  }
+
+  .card {
+      flex-direction: column;
+  }
+
+  .card1, .card2 {
+      margin: 0;
+      padding: 0;
+  }
+
+  .border-line {
+      border-right: none;
+  }
+
+  .card2 {
+      margin: 0;
+  }
+
+  .or {
+      width: 100%;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact {
+      margin: 0;
+      padding-top: 10px;
+  }
+
+  .card2 {
+      margin: 0;
+  }
+
+  .card2 h6 {
+      text-align: center;
+  }
+
+  .card1 .image {
+      padding: 10px;
+  }
+
+  .input,
+  .textarea,
+  .button {
+      font-size: 0.9rem;
+      padding: 8px 10px;
+  }
+}
