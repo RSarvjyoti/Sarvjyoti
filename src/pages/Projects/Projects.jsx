@@ -90,13 +90,13 @@ const Projects = () => {
                   <div className='btn-group'>
                   <a
                     className="ad-btn"
-                    href="https://github.com/RSarvjyoti/RSarvjyoti.github.io"
+                    href="https://sarvjyoti.vercel.app/"
                   >
                     Go Live
                   </a>
                   <a
                     className="ad-btn"
-                    href="https://github.com/RSarvjyoti/RSarvjyoti.github.io"
+                    href="https://github.com/RSarvjyoti/Sarvjyoti"
                   >
                     Github
                   </a>
