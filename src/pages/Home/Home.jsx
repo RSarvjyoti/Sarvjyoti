@@ -38,7 +38,7 @@ const Home = () => {
       <div className="home-buttons">
         <a href="https://api.whatsapp.com/send?phone=9565229415" 
         className='btn btn-hire' rel='noreferrer' target='_blank'>Hire Me</a>
-        <a className='btn btn-cv' href={Resume} download="Sarvjyoti.pdf">My Resume</a>
+        <a className='btn btn-cv' href={Resume} download="Sarvjyoti.pdf" target='_blank'>My Resume</a>
       </div>
       </Fade>
     </div>
