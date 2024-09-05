@@ -50,12 +50,16 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://onlinecodecrafter.netlify.app/login"
+                     target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Go Live
                   </a>
                   <a
                     className="ad-btn"
                     href="https://github.com/aniyant/Judicial-JavaScript_038"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Github
                   </a>
@@ -91,12 +95,16 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://sarvjyoti.vercel.app/"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Go Live
                   </a>
                   <a
                     className="ad-btn"
                     href="https://github.com/RSarvjyoti/Sarvjyoti"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Github
                   </a>
@@ -131,12 +139,16 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://66a4b28c9788dce6781962d2--artifyhub.netlify.app/"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Go Live
                   </a>
                   <a
                     className="ad-btn"
                     href="https://github.com/RSarvjyoti/Behance"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Github
                   </a>
@@ -171,12 +183,16 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://frankandoak.netlify.app/"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Go Live
                   </a>
                   <a
                     className="ad-btn"
                     href="https://github.com/AdityaSingh-byte/Frank-and-Oak"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Github
                   </a>
@@ -212,12 +228,16 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://traveltrakkers.vercel.app/"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Go Live
                   </a>
                   <a
                     className="ad-btn"
                     href="https://github.com/Amrit-786/Travel-Trakerrs"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Github
                   </a>
@@ -254,12 +274,16 @@ const Projects = () => {
                   <a
                     className="ad-btn"
                     href="https://verdant-queijadas-785dd0.netlify.app/"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Go Live
                   </a>
                   <a
                     className="ad-btn"
                     href="https://github.com/ROHANKUMAR347/algorithm-mystique-23"
+                    target="_blank"
+                     rel="noopener noreferrer"
                   >
                     Github
                   </a>
