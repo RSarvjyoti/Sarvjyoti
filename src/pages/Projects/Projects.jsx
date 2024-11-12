@@ -138,7 +138,7 @@ const Projects = () => {
                   <div className='btn-group'>
                   <a
                     className="ad-btn"
-                    href="https://66a4b28c9788dce6781962d2--artifyhub.netlify.app/"
+                    href="https://artifyhub.netlify.app/"
                     target="_blank"
                      rel="noopener noreferrer"
                   >
@@ -267,7 +267,7 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Code Craffter
+                      Bewacoof
                     </h6>
                   </div>
                   <div className='btn-group'>
