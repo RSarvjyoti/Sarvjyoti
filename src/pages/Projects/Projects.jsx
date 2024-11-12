@@ -204,48 +204,6 @@ const Projects = () => {
 
             {/* Project 5 */}
 
-            <div className="col-md-4">
-              <div className="card rounded">
-                <div className="card-image">
-                  <span className="card-notify-badge">Frontend </span>
-                  <img
-                    src={travalTrakkers}
-                    alt="project1"
-                  />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">React</span>
-                  <span className="card-detail-badge">CSS</span>
-                  <span className="card-detail-badge">Tailwind CSS</span>
-                </div>
-                <div className="card-body text-center">
-                  <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">
-                      Travel Trakkers
-                    </h6>
-                  </div>
-                  <div className='btn-group'>
-                  <a
-                    className="ad-btn"
-                    href="https://traveltrakkers.vercel.app/"
-                    target="_blank"
-                     rel="noopener noreferrer"
-                  >
-                    Go Live
-                  </a>
-                  <a
-                    className="ad-btn"
-                    href="https://github.com/Amrit-786/Travel-Trakerrs"
-                    target="_blank"
-                     rel="noopener noreferrer"
-                  >
-                    Github
-                  </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
 
             {/* Project 6 */}
 
