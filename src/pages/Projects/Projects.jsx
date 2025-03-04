@@ -43,13 +43,13 @@ const Projects = () => {
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Code Craffter
+                      Sarvjyoti Writes
                     </h6>
                   </div>
                   <div className='btn-group'>
                   <a
                     className="ad-btn"
-                    href="https://onlinecodecrafter.netlify.app/login"
+                    href="https://sarvjyoti-writes-vcij.vercel.app/"
                      target="_blank"
                      rel="noopener noreferrer"
                   >
@@ -57,7 +57,7 @@ const Projects = () => {
                   </a>
                   <a
                     className="ad-btn"
-                    href="https://github.com/aniyant/Judicial-JavaScript_038"
+                    href="https://github.com/RSarvjyoti/Sarvjyoti_Writes"
                     target="_blank"
                      rel="noopener noreferrer"
                   >
@@ -157,6 +157,7 @@ const Projects = () => {
               </div>
             </div>
             </Jump>
+          
             {/* Project 4 */}
             <Jump>
             <div className="col-md-4">
@@ -204,9 +205,6 @@ const Projects = () => {
 
             {/* Project 5 */}
 
-
-            {/* Project 6 */}
-
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -249,6 +247,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+              
             </Jump>
 
         </div>
